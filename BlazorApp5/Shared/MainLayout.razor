@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager NavManager
+
+<div class="page">
+    <div class="main">
+        <div class="top-row px-4">
+            <a href="/" role="button" style="float: left">
+                <h4 style="float: left">SPA Market</h4>
+            </a>
+            <input style="margin-left:50px; width:50%; float:left;" type="text" class="form-control" id="exampleInputEmail1" placeholder="Search...">
+            <a href="register" class="btn btn-primary" style="position: absolute; right:7%">Register</a>
+            <a href="login" class="btn btn-primary" style="position: absolute; right: 2%;">Login</a>
+        </div>
+        <div class="content px-4">
+            @Body
+        </div>
+        <div class="Details">
+            <p>details</p>
+        </div>
+    </div>
+</div>
